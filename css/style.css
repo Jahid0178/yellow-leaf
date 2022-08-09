@@ -122,3 +122,19 @@ nav ul li a {
   font-weight: bold;
   cursor: pointer;
 }
+
+/* Responsive */
+@media only screen and (max-width: 992px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-img-section {
+    text-align: center;
+  }
+}
